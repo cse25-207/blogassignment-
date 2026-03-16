@@ -1,0 +1,280 @@
+/* GENERAL STYLING */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#000;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#ff6600;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:16px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#ff6600;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+height:90vh;
+background:url("images/hero.jpg") center/cover no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+}
+
+.btn{
+background:#ff6600;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ff4500;
+}
+
+
+/* FEATURED DESIGNS */
+
+.featured{
+padding:60px 10%;
+text-align:center;
+}
+
+.featured h2{
+margin-bottom:30px;
+font-size:32px;
+}
+
+.design-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.design-box{
+background:#1a1a1a;
+padding:15px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.design-box img{
+width:100%;
+border-radius:5px;
+}
+
+.design-box:hover{
+transform:scale(1.05);
+}
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-gallery{
+padding:60px 10%;
+}
+
+.gallery-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery-item{
+background:#1a1a1a;
+padding:10px;
+border-radius:8px;
+text-align:center;
+transition:0.3s;
+}
+
+.gallery-item img{
+width:100%;
+border-radius:5px;
+}
+
+.gallery-item:hover{
+transform:scale(1.05);
+}
+
+
+/* SERVICES */
+
+.services-container{
+padding:60px 10%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service-box{
+background:#1a1a1a;
+padding:25px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.service-box:hover{
+transform:translateY(-5px);
+}
+
+.service-box h2{
+margin-bottom:10px;
+color:#ff6600;
+}
+
+
+/* ABOUT PAGE */
+
+.about-container{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+padding:60px 10%;
+align-items:center;
+}
+
+.about-image img{
+width:300px;
+border-radius:10px;
+}
+
+.about-text{
+max-width:600px;
+}
+
+.skills{
+padding:40px 10%;
+text-align:center;
+}
+
+.skills ul{
+list-style:none;
+margin-top:20px;
+}
+
+.skills li{
+background:#1a1a1a;
+display:inline-block;
+padding:10px 20px;
+margin:10px;
+border-radius:5px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-container{
+display:flex;
+flex-wrap:wrap;
+gap:40px;
+padding:60px 10%;
+}
+
+.contact-form{
+flex:1;
+}
+
+.contact-form form{
+display:flex;
+flex-direction:column;
+}
+
+.contact-form input,
+.contact-form textarea{
+margin-bottom:15px;
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+.contact-form button{
+background:#ff6600;
+color:white;
+padding:12px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.contact-info{
+flex:1;
+}
+
+
+/* PAGE TITLE */
+
+.page-title{
+text-align:center;
+padding:50px 10%;
+background:#1a1a1a;
+}
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#000;
+margin-top:40px;
+}
+  
