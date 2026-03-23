@@ -53,15 +53,11 @@ color:#ff6600;
 /* HERO SECTION */
 
 .hero{
-height:90vh;
-background:url("images/hero.jpg") center/cover no-repeat;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
+height:60vh;
+background-image: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7");
+background-size: cover;
+background-position: center;
 }
-
 .hero h1{
 font-size:50px;
 margin-bottom:10px;
