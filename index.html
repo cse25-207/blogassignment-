@@ -1,70 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Growth Point Printers</title>
-    <link rel="stylesheet"href="styles.css">
-  
-  </head>
-  <body>
-    <header>
-<div class="logo">Growth Point Printers</div>
-<nav>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lefika Print Designs</title>
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 10%;
+background:#111;
+color:white;
+}
+
+header ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+header a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+.hero{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+
+/* HERO IMAGE LINK (WORKS INSTANTLY) */
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1492724441997-5dc865305da7");
+
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:10px;
+color:#ff6600;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.btn{
+background:#ff6600;
+padding:10px 20px;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* ABOUT */
+.about{
+padding:30px 10%;
+text-align:center;
+}
+
+/* FOOTER */
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<h2>Lefika Designs</h2>
+
 <ul>
 <li><a href="index.html">Home</a></li>
-<li><a href="portfolio.html">Portfolio</a</li>
-<li><a href="services.html">Services</a</li>
-<li><a href="about.html">About</a</li>
-<li><a href="contact.html">Contact</a</li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
-</nav>
+</header>
 
-    </header>
-    <!-- HERO SECTION -->  
+<!-- HERO -->
 <section class="hero">
-
 <h1>Creative Printing Design</h1>
 <p>Posters • Flyers • Banners • Business Cards</p>
-
-<div class="buttons">
-       <a href="portfolio.html" class="btn">View Portfolio</a>
-       <a href="contact.html" class"btn">Contact Me</a>
-</div>
-</section>
-  
-<!-- FEATURED DESIGNS -->
-<section class="featured">
-
-<h2>Featured Designs</h2>
-
-<div class="design-container">
-
-<div class="design-box">
-<img src="images/poster.jpg">
-<h3>Poster Design</h3>
-<p>Music Event Poster</p>
-</div>
-
-<div class="design-box">
-<img src="images/businesscard.jpg">
-<h3>Business Card</h3>
-<p>Sleek Business Card</p>
-</div>
-
-<div class="design-box">
-<img src="images/banner.jpg">
-<h3>Banner Design</h3>
-<p>Promotional Banner</p>
-</div>
-
-</div>
-
+<a href="portfolio.html" class="btn">View Portfolio</a>
 </section>
 
-    <footer>
-      <p>@ 2026 Growth Point Printers</p>
-    </footer>
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Growth Point Printers</p>
+</footer>
 
-  </body>
+</body>
 </html>
